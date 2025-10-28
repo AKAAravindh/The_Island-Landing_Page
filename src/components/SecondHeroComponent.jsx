@@ -51,7 +51,7 @@ export default function SecondHeroComponent({ firstParentContainer }) {
           ref={(el) => (contentRef.current[0] = el)}
           className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6 drop-shadow-lg"
         >
-          Discover <span className="text-yellow-300">Insland</span>
+          Discover <span className="text-yellow-300">Island</span>
         </h1>
         <p
           ref={(el) => (contentRef.current[1] = el)}
@@ -72,8 +72,11 @@ export default function SecondHeroComponent({ firstParentContainer }) {
           </button>
         </div>
       </div>
-      ref={(el) => (contentRef.current[3] = el)}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce  text-white text-2xl text-center">
+
+      <div
+        ref={(el) => (contentRef.current[3] = el)}
+        className="absolute bottom-10 animate-bounce text-white text-2xl w-full"
+      >
         Welcome to <i>THE ISLAND</i>
       </div>
     </section>

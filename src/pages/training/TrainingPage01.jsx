@@ -105,7 +105,7 @@ function TrainingPage01() {
         ref={firstParentContainer}
         className="w-full h-screen flex flex-col justify-center items-center text-center overflow-hidden perspective-near"
       >
-        <div className="perspective-origin-top perspective-distant absolute top-0 mt-40 sm:mt-22">
+        <div className="perspective-origin-top perspective-distant absolute top-0 mt-30 sm:mt-22">
           <div ref={firstContentRef} className="rotate-x-0">
             <p>THE ISLAND</p>
             <h1 className="font-normal text-[clamp(3rem,10vw,5.5rem)] md:text-[5.5rem] leading-none sm:leading-20 mt-3">
@@ -117,7 +117,7 @@ function TrainingPage01() {
         <div className="absolute w-full h-screen -z-1 flex justify-center inset-0 items-center isolate">
           <div
             ref={imageContentRef}
-            className="w-[40%] h-[40%] sm:mt-20 relative -z-10"
+            className="w-[40%] h-[40%] -mt-10 sm:mt-20 relative -z-10"
           >
             <img
               className="w-full h-full object-cover"
