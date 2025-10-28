@@ -89,7 +89,7 @@ function TrainingPage01() {
   return (
     <div className="w-full min-h-screen bg-[#3f6e8b] text-white">
       <nav className="fixed top-0 left-0 z-50 w-full flex justify-center items-center p-7">
-        <ul className="flex gap-6">
+        <ul className="flex justify-between sm:justify-center sm:gap-6 w-full">
           {["Home", "About", "Services", "Contact", "FAQ"].map((item, idx) => (
             <li
               key={idx}
@@ -105,10 +105,10 @@ function TrainingPage01() {
         ref={firstParentContainer}
         className="w-full h-screen flex flex-col justify-center items-center text-center overflow-hidden perspective-near"
       >
-        <div className="perspective-origin-top perspective-distant absolute top-0 mt-22">
+        <div className="perspective-origin-top perspective-distant absolute top-0 mt-40 sm:mt-22">
           <div ref={firstContentRef} className="rotate-x-0">
             <p>THE ISLAND</p>
-            <h1 className="font-normal text-[5.5rem] leading-20 mt-3">
+            <h1 className="font-normal text-[clamp(3rem,10vw,5.5rem)] md:text-[5.5rem] leading-none sm:leading-20 mt-3">
               EXPERIENCE THE <br /> BEST OF ISLAND
             </h1>
           </div>
@@ -117,7 +117,7 @@ function TrainingPage01() {
         <div className="absolute w-full h-screen -z-1 flex justify-center inset-0 items-center isolate">
           <div
             ref={imageContentRef}
-            className="w-[40%] h-[40%] mt-20 relative -z-10"
+            className="w-[40%] h-[40%] sm:mt-20 relative -z-10"
           >
             <img
               className="w-full h-full object-cover"
@@ -140,10 +140,10 @@ function TrainingPage01() {
             ref={lastContentRef}
             className="flex flex-col justify-center w-full items-center rotate-x-0"
           >
-            <h1 className="font-normal text-[5.5rem] leading-none">
+            <h1 className="font-normal text-[clamp(3rem,10vw,5.5rem)] md:text-[5.5rem] leading-none">
               LIVING ON MADERIA
             </h1>
-            <p className="w-[50%] text-sm leading-tight py-1">
+            <p className="px-8 md:w-[50%] text-sm leading-tight py-2 sm:py-1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ex
               deserunt! Molestiae libero incidunt enim. Ullam velit alias ea
               ratione obcaecati reiciendis adipisci voluptatum asperiores atque

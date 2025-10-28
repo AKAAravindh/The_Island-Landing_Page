@@ -73,7 +73,7 @@ export default function SecondHeroComponent({ firstParentContainer }) {
         </div>
       </div>
       ref={(el) => (contentRef.current[3] = el)}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce  text-white text-2xl">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce  text-white text-2xl text-center">
         Welcome to <i>THE ISLAND</i>
       </div>
     </section>
