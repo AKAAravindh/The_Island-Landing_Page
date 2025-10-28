@@ -2,7 +2,7 @@
 
 A modern and visually engaging tropical-themed landing page built with **React + Vite + TailwindCSS + GSAP**. The page features smooth animations, clean design, and a fully responsive layout optimized for performance and aesthetics.
 
-🔗 **Live Demo:** https://the-island-landing-page.netlify.app/
+🔗 **Live Demo:** <a href="https://the-island-landing-page.netlify.app/" target="_blank"></a>
 
 ---
 
