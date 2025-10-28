@@ -34,10 +34,12 @@ A modern and visually engaging tropical-themed landing page built with **React +
 Add your screenshots inside a `screenshots/` folder in your project and replace the paths below.
 
 ### Desktop View
-![Desktop Preview](./screenshots/desktop.png)
+<h3>Desktop View</h3>
+<img src="./screenshots/desktop-preview.png" alt="Desktop Preview">
 
 ### Mobile View
-![Mobile Preview](./screenshots/mobile.png)
+<h3>Mobile View</h3>
+<img src="./screenshots/mobile-preview.png" alt="Mobile Preview" width="300px">
 
 ---
 
