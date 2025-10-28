@@ -49,10 +49,10 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone this repository
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/AKAAravindh/The_Island-Landing_Page.git
 
 # Navigate to the project directory
-cd your-project-folder
+cd The_Island-Landing_Page
 
 # Install dependencies
 npm install
